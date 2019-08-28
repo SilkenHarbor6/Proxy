@@ -28,7 +28,7 @@
         private void Loading()
         {
             Console.WriteLine("Cargando...");
-            Thread.Sleep(4000);
+            Thread.Sleep(1000);
             Console.Clear();
         }
     }
