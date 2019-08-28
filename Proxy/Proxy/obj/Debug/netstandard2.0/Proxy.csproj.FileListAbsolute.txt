@@ -1,0 +1,9 @@
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\Proxy\Proxy\Proxy\bin\Debug\netstandard2.0\Proxy.deps.json
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\Proxy\Proxy\Proxy\bin\Debug\netstandard2.0\Proxy.dll
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\Proxy\Proxy\Proxy\bin\Debug\netstandard2.0\Proxy.pdb
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\Proxy\Proxy\Proxy\obj\Debug\netstandard2.0\Proxy.csprojAssemblyReference.cache
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\Proxy\Proxy\Proxy\obj\Debug\netstandard2.0\Proxy.csproj.CoreCompileInputs.cache
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\Proxy\Proxy\Proxy\obj\Debug\netstandard2.0\Proxy.AssemblyInfoInputs.cache
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\Proxy\Proxy\Proxy\obj\Debug\netstandard2.0\Proxy.AssemblyInfo.cs
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\Proxy\Proxy\Proxy\obj\Debug\netstandard2.0\Proxy.dll
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\Proxy\Proxy\Proxy\obj\Debug\netstandard2.0\Proxy.pdb

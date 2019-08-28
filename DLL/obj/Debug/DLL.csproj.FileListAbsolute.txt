@@ -1,0 +1,6 @@
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\Proxy\DLL\bin\Debug\DLL.dll
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\Proxy\DLL\bin\Debug\DLL.pdb
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\Proxy\DLL\obj\Debug\DLL.csprojAssemblyReference.cache
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\Proxy\DLL\obj\Debug\DLL.csproj.CoreCompileInputs.cache
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\Proxy\DLL\obj\Debug\DLL.dll
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\Proxy\DLL\obj\Debug\DLL.pdb
