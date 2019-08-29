@@ -30,6 +30,7 @@ namespace ConsoleApp
         }
         private static void MostrarInfo()
         {
+            listaPersonas = datos.GetAll();
             foreach (Persona item in listaPersonas)
             {
                 Console.WriteLine("Nombre: {0} {1}", item.nombre, item.apellido);
