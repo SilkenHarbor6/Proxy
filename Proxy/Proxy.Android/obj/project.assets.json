@@ -2,6 +2,31 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v8.1": {
+      "Acr.UserDialogs/7.0.4": {
+        "type": "package",
+        "dependencies": {
+          "AndHUD": "1.4.1",
+          "Xamarin.Android.Support.Design": "27.0.2.1"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid81/Acr.UserDialogs.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid81/Acr.UserDialogs.dll": {}
+        }
+      },
+      "AndHUD/1.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid81/AndHUD.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid81/AndHUD.dll": {}
+        }
+      },
       "Xamarin.Android.Arch.Core.Common/1.0.0": {
         "type": "package",
         "dependencies": {
@@ -345,6 +370,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Acr.UserDialogs": "7.0.4",
           "Xamarin.Forms": "3.0.0.482510"
         },
         "compile": {
@@ -357,6 +383,44 @@
     }
   },
   "libraries": {
+    "Acr.UserDialogs/7.0.4": {
+      "sha512": "wmeQhteQymYgTwDPSxfuLlWP8qkXKSCcMB0UNQi/SXl4/vvqwzsX3uP5A7kYzxsbthuFWau3Ni0ZyCL7pyb5Fw==",
+      "type": "package",
+      "path": "acr.userdialogs/7.0.4",
+      "files": [
+        ".signature.p7s",
+        "acr.userdialogs.7.0.4.nupkg.sha512",
+        "acr.userdialogs.nuspec",
+        "lib/monoandroid81/Acr.UserDialogs.dll",
+        "lib/monoandroid81/Acr.UserDialogs.pdb",
+        "lib/monoandroid90/Acr.UserDialogs.dll",
+        "lib/monoandroid90/Acr.UserDialogs.pdb",
+        "lib/netstandard2.0/Acr.UserDialogs.dll",
+        "lib/netstandard2.0/Acr.UserDialogs.pdb",
+        "lib/uap10.0.16299/Acr.UserDialogs.dll",
+        "lib/uap10.0.16299/Acr.UserDialogs.pdb",
+        "lib/uap10.0.16299/Acr.UserDialogs.pri",
+        "lib/uap10.0.16299/Acr.UserDialogs/Acr.UserDialogs.xr.xml",
+        "lib/uap10.0.16299/Acr.UserDialogs/Platforms/Uwp/ActionSheetContentDialog.xbf",
+        "lib/uap10.0.16299/Acr.UserDialogs/Platforms/Uwp/DatePickerControl.xbf",
+        "lib/uap10.0.16299/Acr.UserDialogs/Platforms/Uwp/LoginContentDialog.xbf",
+        "lib/uap10.0.16299/Acr.UserDialogs/Platforms/Uwp/ProgressContentDialog.xbf",
+        "lib/uap10.0.16299/Acr.UserDialogs/Platforms/Uwp/TimePickerControl.xbf",
+        "lib/xamarinios10/Acr.UserDialogs.dll",
+        "lib/xamarinios10/Acr.UserDialogs.pdb"
+      ]
+    },
+    "AndHUD/1.4.1": {
+      "sha512": "8EyOSHsv4FJ7RUnwd9jhqeIvWFP7aAroaGRk7bQxs7lkRix9sBeIlES/PUDGAH348Oj9g5iZQSbCWOKcBuDisg==",
+      "type": "package",
+      "path": "andhud/1.4.1",
+      "files": [
+        ".signature.p7s",
+        "andhud.1.4.1.nupkg.sha512",
+        "andhud.nuspec",
+        "lib/MonoAndroid81/AndHUD.dll"
+      ]
+    },
     "Xamarin.Android.Arch.Core.Common/1.0.0": {
       "sha512": "1xP9Wtfvl36hjws6u76H5wkpGwhIMD/T45K/Z0Y0yOcaUbNuayrL2xeBHo69KE0Ojd5HgLPKZoGTDcBakUT71A==",
       "type": "package",
@@ -770,6 +834,7 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v8.1": [
+      "Acr.UserDialogs >= 7.0.4",
       "Proxy >= 1.0.0",
       "Xamarin.Android.Support.Design >= 27.0.2",
       "Xamarin.Android.Support.v4 >= 27.0.2",
@@ -816,6 +881,10 @@
     "frameworks": {
       "monoandroid81": {
         "dependencies": {
+          "Acr.UserDialogs": {
+            "target": "Package",
+            "version": "[7.0.4, )"
+          },
           "Xamarin.Android.Support.Design": {
             "target": "Package",
             "version": "[27.0.2, )"
@@ -843,5 +912,17 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Degradación del paquete detectada: Xamarin.Android.Support.Design de 27.0.2.1 a 27.0.2. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n Proxy.Android -> Acr.UserDialogs 7.0.4 -> Xamarin.Android.Support.Design (>= 27.0.2.1) \r\n Proxy.Android -> Xamarin.Android.Support.Design (>= 27.0.2)",
+      "libraryId": "Xamarin.Android.Support.Design",
+      "targetGraphs": [
+        "MonoAndroid,Version=v8.1"
+      ]
+    }
+  ]
 }
