@@ -2,12 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Proxy"
+             Title="Personas"
              x:Class="Proxy.MainPage">
 
-    <!--<ContentPage.ToolbarItems>
-        <ToolbarItem Text="Nuevo" Command="{Binding newPerson}" Order="Primary"/>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Nuevo" Command="{Binding New}" Order="Primary"/>
         <ToolbarItem Text="Salir" Command="{Binding Close}" Order="Secondary"/>
-    </ContentPage.ToolbarItems>-->
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout Margin="5,20,5,5">
             <BoxView HeightRequest="1"
@@ -53,6 +54,7 @@
                       ItemsSource="{Binding Lpersonas,Mode=TwoWay}"
                       IsPullToRefreshEnabled="True"
                       RefreshCommand="{Binding Refresh}"
+                      SelectedItem="{Binding Persona,Mode=TwoWay}"
                       SeparatorVisibility="None">
                 <ListView.ItemTemplate>
                     <DataTemplate>

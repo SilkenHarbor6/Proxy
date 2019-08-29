@@ -2436,6 +2436,24 @@ namespace Proxy.Droid
 			// aapt resource value: 2131296347
 			public static int design_snackbar_background = 2131296347;
 			
+			// aapt resource value: 0
+			public static int editar = 0;
+			
+			// aapt resource value: 0
+			public static int Eliminar = 0;
+			
+			// aapt resource value: 0
+			public static int error = 0;
+			
+			// aapt resource value: 0
+			public static int ghost = 0;
+			
+			// aapt resource value: 0
+			public static int ghost (2) = 0;
+			
+			// aapt resource value: 0
+			public static int ghosttito = 0;
+			
 			// aapt resource value: 2131296340
 			public static int ic_audiotrack_dark = 2131296340;
 			
@@ -3077,6 +3095,9 @@ namespace Proxy.Droid
 			
 			// aapt resource value: 0
 			public static int roundedbgdark = 0;
+			
+			// aapt resource value: 0
+			public static int save = 0;
 			
 			// aapt resource value: 2131296361
 			public static int tooltip_frame_dark = 2131296361;

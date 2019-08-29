@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "b602f99e7b4852a544d5b57add4c79bb64c61a9a"
+    "signature": "c0e815dd893a4953c5cab56552c98880d566bd70"
   },
   "compilationOptions": {},
   "targets": {
@@ -13,7 +13,8 @@
           "DLL": "1.0.0",
           "MvvmLightLibs": "5.4.1.1",
           "NETStandard.Library": "2.0.1",
-          "Xamarin.Forms": "3.0.0.482510"
+          "Rg.Plugins.Popup": "1.1.5.188",
+          "Xamarin.Forms": "3.4.0.1039999"
         },
         "runtime": {
           "Proxy.dll": {}
@@ -38,7 +39,15 @@
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
       },
-      "Xamarin.Forms/3.0.0.482510": {
+      "Rg.Plugins.Popup/1.1.5.188": {
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1039999"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Rg.Plugins.Popup.dll": {}
+        }
+      },
+      "Xamarin.Forms/3.4.0.1039999": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
           "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {},
@@ -86,12 +95,19 @@
       "path": "netstandard.library/2.0.1",
       "hashPath": "netstandard.library.2.0.1.nupkg.sha512"
     },
-    "Xamarin.Forms/3.0.0.482510": {
+    "Rg.Plugins.Popup/1.1.5.188": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-JVMTkR2/I6ujURllaBmXQAE8Cxg0Q1xHopuDVKohG1Hn3afsZx4Y4fMElVOXVBziewKVW3i8QBes5Pl5p48Tmw==",
-      "path": "xamarin.forms/3.0.0.482510",
-      "hashPath": "xamarin.forms.3.0.0.482510.nupkg.sha512"
+      "sha512": "sha512-3z5Q6Bdvhi8J2e5Cj0lEQ3rseZXXYTCFd3FjWjDlRbBnJ2vtNPRui5DE8bwWjA2PiDyK+GNj/bhvy+enEzISBA==",
+      "path": "rg.plugins.popup/1.1.5.188",
+      "hashPath": "rg.plugins.popup.1.1.5.188.nupkg.sha512"
+    },
+    "Xamarin.Forms/3.4.0.1039999": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XdGH8FFFH50/6/tJyFe5murtCI7CeS8Si7hwjWpu/1KeLhMcBSeHzKnc2T4rI3pbHPjIpLz/hPofZqdLLcDBiQ==",
+      "path": "xamarin.forms/3.4.0.1039999",
+      "hashPath": "xamarin.forms.3.4.0.1039999.nupkg.sha512"
     },
     "DLL/1.0.0": {
       "type": "project",

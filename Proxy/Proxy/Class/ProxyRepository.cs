@@ -11,7 +11,7 @@
         {
             using (UserDialogs.Instance.Loading("Cargando...",null,null,true,MaskType.Black))
             {
-                await Task.Delay(4000);
+                await Task.Delay(2000);
             }
         }
         #region Metodos de interfaz

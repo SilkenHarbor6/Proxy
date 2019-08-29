@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pg:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pg="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             x:Class="Proxy.View.MenuP">
+    <ContentPage.Content>
+        <Frame HorizontalOptions="Center" VerticalOptions="Center" Padding="10">
+            <StackLayout>
+                <ImageButton Source="editar.png" Aspect="AspectFit" WidthRequest="150" HeightRequest="75" BackgroundColor="Transparent" Command="{Binding Editar}"/>
+                <ImageButton Source="Eliminar.png" Aspect="AspectFit" WidthRequest="150" HeightRequest="75" BackgroundColor="Transparent" Command="{Binding Eliminar}"/>
+            </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</pg:PopupPage>
