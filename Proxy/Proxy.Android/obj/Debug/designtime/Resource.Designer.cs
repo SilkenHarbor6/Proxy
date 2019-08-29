@@ -26,6 +26,43 @@ namespace Proxy.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::AndroidHUD.Resource.Attribute.ahBarColor = global::Proxy.Droid.Resource.Attribute.ahBarColor;
+			global::AndroidHUD.Resource.Attribute.ahBarLength = global::Proxy.Droid.Resource.Attribute.ahBarLength;
+			global::AndroidHUD.Resource.Attribute.ahBarWidth = global::Proxy.Droid.Resource.Attribute.ahBarWidth;
+			global::AndroidHUD.Resource.Attribute.ahCircleColor = global::Proxy.Droid.Resource.Attribute.ahCircleColor;
+			global::AndroidHUD.Resource.Attribute.ahDelayMillis = global::Proxy.Droid.Resource.Attribute.ahDelayMillis;
+			global::AndroidHUD.Resource.Attribute.ahRadius = global::Proxy.Droid.Resource.Attribute.ahRadius;
+			global::AndroidHUD.Resource.Attribute.ahRimColor = global::Proxy.Droid.Resource.Attribute.ahRimColor;
+			global::AndroidHUD.Resource.Attribute.ahRimWidth = global::Proxy.Droid.Resource.Attribute.ahRimWidth;
+			global::AndroidHUD.Resource.Attribute.ahSpinSpeed = global::Proxy.Droid.Resource.Attribute.ahSpinSpeed;
+			global::AndroidHUD.Resource.Attribute.ahText = global::Proxy.Droid.Resource.Attribute.ahText;
+			global::AndroidHUD.Resource.Attribute.ahTextColor = global::Proxy.Droid.Resource.Attribute.ahTextColor;
+			global::AndroidHUD.Resource.Attribute.ahTextSize = global::Proxy.Droid.Resource.Attribute.ahTextSize;
+			global::AndroidHUD.Resource.Drawable.ic_errorstatus = global::Proxy.Droid.Resource.Drawable.ic_errorstatus;
+			global::AndroidHUD.Resource.Drawable.ic_successstatus = global::Proxy.Droid.Resource.Drawable.ic_successstatus;
+			global::AndroidHUD.Resource.Drawable.roundedbg = global::Proxy.Droid.Resource.Drawable.roundedbg;
+			global::AndroidHUD.Resource.Drawable.roundedbgdark = global::Proxy.Droid.Resource.Drawable.roundedbgdark;
+			global::AndroidHUD.Resource.Id.loadingImage = global::Proxy.Droid.Resource.Id.loadingImage;
+			global::AndroidHUD.Resource.Id.loadingProgressBar = global::Proxy.Droid.Resource.Id.loadingProgressBar;
+			global::AndroidHUD.Resource.Id.loadingProgressWheel = global::Proxy.Droid.Resource.Id.loadingProgressWheel;
+			global::AndroidHUD.Resource.Id.textViewStatus = global::Proxy.Droid.Resource.Id.textViewStatus;
+			global::AndroidHUD.Resource.Layout.loading = global::Proxy.Droid.Resource.Layout.loading;
+			global::AndroidHUD.Resource.Layout.loadingimage = global::Proxy.Droid.Resource.Layout.loadingimage;
+			global::AndroidHUD.Resource.Layout.loadingprogress = global::Proxy.Droid.Resource.Layout.loadingprogress;
+			global::AndroidHUD.Resource.String.library_name = global::Proxy.Droid.Resource.String.library_name;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel = global::Proxy.Droid.Resource.Styleable.ProgressWheel;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarColor = global::Proxy.Droid.Resource.Styleable.ProgressWheel_ahBarColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarLength = global::Proxy.Droid.Resource.Styleable.ProgressWheel_ahBarLength;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarWidth = global::Proxy.Droid.Resource.Styleable.ProgressWheel_ahBarWidth;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahCircleColor = global::Proxy.Droid.Resource.Styleable.ProgressWheel_ahCircleColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahDelayMillis = global::Proxy.Droid.Resource.Styleable.ProgressWheel_ahDelayMillis;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRadius = global::Proxy.Droid.Resource.Styleable.ProgressWheel_ahRadius;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRimColor = global::Proxy.Droid.Resource.Styleable.ProgressWheel_ahRimColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRimWidth = global::Proxy.Droid.Resource.Styleable.ProgressWheel_ahRimWidth;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahSpinSpeed = global::Proxy.Droid.Resource.Styleable.ProgressWheel_ahSpinSpeed;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahText = global::Proxy.Droid.Resource.Styleable.ProgressWheel_ahText;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextColor = global::Proxy.Droid.Resource.Styleable.ProgressWheel_ahTextColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextSize = global::Proxy.Droid.Resource.Styleable.ProgressWheel_ahTextSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::Proxy.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -210,6 +247,42 @@ namespace Proxy.Droid
 			
 			// aapt resource value: 2130968610
 			public static int activityChooserViewStyle = 2130968610;
+			
+			// aapt resource value: 0
+			public static int ahBarColor = 0;
+			
+			// aapt resource value: 0
+			public static int ahBarLength = 0;
+			
+			// aapt resource value: 0
+			public static int ahBarWidth = 0;
+			
+			// aapt resource value: 0
+			public static int ahCircleColor = 0;
+			
+			// aapt resource value: 0
+			public static int ahDelayMillis = 0;
+			
+			// aapt resource value: 0
+			public static int ahRadius = 0;
+			
+			// aapt resource value: 0
+			public static int ahRimColor = 0;
+			
+			// aapt resource value: 0
+			public static int ahRimWidth = 0;
+			
+			// aapt resource value: 0
+			public static int ahSpinSpeed = 0;
+			
+			// aapt resource value: 0
+			public static int ahText = 0;
+			
+			// aapt resource value: 0
+			public static int ahTextColor = 0;
+			
+			// aapt resource value: 0
+			public static int ahTextSize = 0;
 			
 			// aapt resource value: 2130968611
 			public static int alertDialogButtonGroupStyle = 2130968611;
@@ -2375,6 +2448,9 @@ namespace Proxy.Droid
 			// aapt resource value: 2131296343
 			public static int ic_dialog_close_light = 2131296343;
 			
+			// aapt resource value: 0
+			public static int ic_errorstatus = 0;
+			
 			// aapt resource value: 2131296344
 			public static int ic_group_collapse_00 = 2131296344;
 			
@@ -2876,6 +2952,9 @@ namespace Proxy.Droid
 			// aapt resource value: 2131296510
 			public static int ic_mr_button_grey = 2131296510;
 			
+			// aapt resource value: 0
+			public static int ic_successstatus = 0;
+			
 			// aapt resource value: 2131296511
 			public static int ic_vol_type_speaker_dark = 2131296511;
 			
@@ -2992,6 +3071,12 @@ namespace Proxy.Droid
 			
 			// aapt resource value: 2131296268
 			public static int notify_panel_notification_icon_bg = 2131296268;
+			
+			// aapt resource value: 0
+			public static int roundedbg = 0;
+			
+			// aapt resource value: 0
+			public static int roundedbgdark = 0;
 			
 			// aapt resource value: 2131296361
 			public static int tooltip_frame_dark = 2131296361;
@@ -3206,6 +3291,15 @@ namespace Proxy.Droid
 			
 			// aapt resource value: 2131492929
 			public static int list_item = 2131492929;
+			
+			// aapt resource value: 0
+			public static int loadingImage = 0;
+			
+			// aapt resource value: 0
+			public static int loadingProgressBar = 0;
+			
+			// aapt resource value: 0
+			public static int loadingProgressWheel = 0;
 			
 			// aapt resource value: 2131492930
 			public static int masked = 2131492930;
@@ -3467,6 +3561,9 @@ namespace Proxy.Droid
 			
 			// aapt resource value: 2131492988
 			public static int textSpacerNoTitle = 2131492988;
+			
+			// aapt resource value: 0
+			public static int textViewStatus = 0;
 			
 			// aapt resource value: 2131492989
 			public static int text_input_password_toggle = 2131492989;
@@ -3732,6 +3829,15 @@ namespace Proxy.Droid
 			// aapt resource value: 2131689512
 			public static int design_text_input_password_icon = 2131689512;
 			
+			// aapt resource value: 0
+			public static int loading = 0;
+			
+			// aapt resource value: 0
+			public static int loadingimage = 0;
+			
+			// aapt resource value: 0
+			public static int loadingprogress = 0;
+			
 			// aapt resource value: 2131689499
 			public static int mr_chooser_dialog = 2131689499;
 			
@@ -3946,6 +4052,9 @@ namespace Proxy.Droid
 			
 			// aapt resource value: 2132082720
 			public static int character_counter_pattern = 2132082720;
+			
+			// aapt resource value: 0
+			public static int library_name = 0;
 			
 			// aapt resource value: 2132082718
 			public static int mr_button_content_description = 2132082718;
@@ -6776,6 +6885,56 @@ namespace Proxy.Droid
 			
 			// aapt resource value: 2
 			public static int PopupWindow_overlapAnchor = 2;
+			
+			public static int[] ProgressWheel = new int[] {
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0};
+			
+			// aapt resource value: 0
+			public static int ProgressWheel_ahBarColor = 0;
+			
+			// aapt resource value: 0
+			public static int ProgressWheel_ahBarLength = 0;
+			
+			// aapt resource value: 0
+			public static int ProgressWheel_ahBarWidth = 0;
+			
+			// aapt resource value: 0
+			public static int ProgressWheel_ahCircleColor = 0;
+			
+			// aapt resource value: 0
+			public static int ProgressWheel_ahDelayMillis = 0;
+			
+			// aapt resource value: 0
+			public static int ProgressWheel_ahRadius = 0;
+			
+			// aapt resource value: 0
+			public static int ProgressWheel_ahRimColor = 0;
+			
+			// aapt resource value: 0
+			public static int ProgressWheel_ahRimWidth = 0;
+			
+			// aapt resource value: 0
+			public static int ProgressWheel_ahSpinSpeed = 0;
+			
+			// aapt resource value: 0
+			public static int ProgressWheel_ahText = 0;
+			
+			// aapt resource value: 0
+			public static int ProgressWheel_ahTextColor = 0;
+			
+			// aapt resource value: 0
+			public static int ProgressWheel_ahTextSize = 0;
 			
 			public static int[] RecycleListView = new int[] {
 					2130968790,

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Proxy.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,7 @@ namespace Proxy
 		public MainPage()
 		{
 			InitializeComponent();
+            BindingContext = new MainPageViewModel();
 		}
 	}
 }
